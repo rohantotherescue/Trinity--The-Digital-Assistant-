@@ -8,12 +8,12 @@ INPUT AND OUTPUT: The input can be taken by voice input of the user. The output 
 
 PYTHON TOOLS USED:
 
--pyttsx3 module used to convert text to speech.
--speechrecognition module used to recognize the voice input of the user
--datetime modue to access the system date and time
--wikipedia module to search Wikipedia on a particular topic
--webbrowser module to open websites in the webbrowser
--os module to access the applications of the system
--smptlib module for sending emails.
--random module used to play random songs.
--time module to introduce time delay between successive commands.
+1) pyttsx3 module used to convert text to speech.
+2)speechrecognition module used to recognize the voice input of the user
+3)datetime modue to access the system date and time
+4)wikipedia module to search Wikipedia on a particular topic
+5)webbrowser module to open websites in the webbrowser
+6)os module to access the applications of the system
+7)smptlib module for sending emails.
+8)random module used to play random songs.
+9)time module to introduce time delay between successive commands.
