@@ -56,8 +56,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('morpheusmadafaka@gmail.com', 'krrishsucks')
-    server.sendmail('morpheusmadafaka@gmail.com', to, content)
+    server.login('your_email@gmail.com', 'password') #edit this to add your email and password.
+    server.sendmail('your_email@gmail.com', to, content)
     server.close()
 
 if __name__ == "__main__":
@@ -93,7 +93,7 @@ if __name__ == "__main__":
             time.sleep(4)   
 
         elif ('music' in query) or ('song' in query):
-            music_dir = r'C:\Users\Rohan\OneDrive\Desktop\Tech Stuff\PYCODE\Trinity\music'
+            music_dir = r'C:\Users\Rohan\OneDrive\Desktop\Tech Stuff\PYCODE\Trinity\music' #Make sure you edit this, and add your dierctory in which you got your music.
             songs = os.listdir(music_dir)
             print(songs)    
             os.startfile(os.path.join(music_dir, songs[random.randint(0,4)]))
